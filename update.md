@@ -5,4 +5,4 @@
 
 #### This version shows how I can use props to update the values of the elements dynamically in combination with useState()
 
-####The next version will show how I can edit the values within the dashboard and change employee names, roles, and images
+#### The next version will show how I can edit the values within the dashboard and change employee names, roles, and images
