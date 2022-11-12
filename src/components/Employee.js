@@ -1,8 +1,9 @@
 function Employee(props){
     return (
         <div className="employees">
-            <h1>Employee name: {props.name}</h1>
-            {props.role ? <p class="role">{props.role}</p> : <p class="no-role">No role</p>}
+            <img class="employee-img" src={props.img} alt="Employee Image" />
+            <h1 class="employee-label">Employee name: {props.name}</h1>
+            {props.role ? <p class="employee-role">{props.role}</p> : <p class="employee-no-role">No role</p>}
         </div>
     );
 }

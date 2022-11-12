@@ -1,18 +1,26 @@
-.showEmployeesBtn {
-  background: red;
-  outline: none;
-  border: none;
-  border-radius: 6px;
-  padding: 7px 20px 7px 20px;
-  color: #fff;
-  font-weight: bold;
-  font-size: 16px;
-  cursor: pointer;
+
+.employees {
+    text-align: center;
 }
 
-.showEmployeesBtn:hover{
-  background: darkred;
-  color: #999;
-  outline: solid 1px red;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+.employee-label {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-weight: bold;
+
+}
+
+.employee-role {
+    margin-top: 5px;
+}
+
+.employee-no-role {
+    margin-top: 5px;
+}
+
+.employee-img {
+    width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
