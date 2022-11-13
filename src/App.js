@@ -45,7 +45,7 @@ function App() {
 
   const showEmployees = true;
   return (
-    <div className="App bg-red-300">
+    <div className="App">
       {showEmployees ? (
         <>
           {/* Display employee list if user is logged in */}
@@ -77,7 +77,7 @@ function App() {
         </>
       )}
       <button className="showEmployeesBtn">Click</button>
-      </div>
+    </div>
   );
 }
 
