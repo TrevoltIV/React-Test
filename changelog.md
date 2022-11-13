@@ -5,7 +5,7 @@
 
 #### This version shows how I can use props to update the values of the elements dynamically in combination with useState()
 
-### Update #2:
+### Update #1:
 
 Added "EditEmployee.js" component which will render a modal to edit the employee information.
 This modal comes from React Bootstrap, a website with useful React code snippets and libraries.
