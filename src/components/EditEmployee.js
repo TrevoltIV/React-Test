@@ -21,17 +21,16 @@ function EditEmployee() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Edit Employee Info</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          I will not close if you click outside me. Don't even try to press
-          escape key.
+          Test edit employee modal from React Bootstrap
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
-            Close
+            Nevermind
           </Button>
-          <Button variant="primary">Understood</Button>
+          <Button variant="primary">Save</Button>
         </Modal.Footer>
       </Modal>
     </>
