@@ -11,7 +11,7 @@ function EditEmployee() {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        Launch static backdrop modal
+        Edit
       </Button>
 
       <Modal
