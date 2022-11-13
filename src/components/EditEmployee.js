@@ -24,7 +24,7 @@ function EditEmployee() {
           <Modal.Title>Edit Employee Info</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          Test edit employee modal from React Bootstrap
+          Test edit employee modal from React Bootstrap. Test text for new branch.
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
